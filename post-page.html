@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Post - Simple Blog</title>
+  <link rel="stylesheet" href="styles/style.css">
+</head>
+
+<body>
+  <navbar-c></navbar-c>
+
+  <main class="main-content">
+    <article class="post-full" id="post-content">
+      <!-- Post content will be loaded here by JavaScript -->
+      <div style="text-align: center; padding: 2rem;">
+        <p>Loading post...</p>
+      </div>
+    </article>
+  </main>
+
+  <footer-c></footer-c>
+
+  <!-- Include all post data files -->
+  <script src="data/post1.js"></script>
+  <script src="data/post2.js"></script>
+  <script src="data/post3.js"></script>
+  <!-- Add new post files here when you create them -->
+
+  <!-- Include components -->
+  <script src="components/navbar.js"></script>
+  <script src="components/footer.js"></script>
+
+  <!-- Post page logic -->
+  <script src="scripts/post-page.js"></script>
+</body>
+
+</html>
