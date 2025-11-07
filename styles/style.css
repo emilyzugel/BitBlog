@@ -33,7 +33,7 @@ body {
 
 /* Navbar */
 .navbar {
-  background: var(--strong-orange);
+  background: var(--orange-light);
 }
 
 .navbar .container {
@@ -41,6 +41,11 @@ body {
   padding: .5rem 0;
   display: flex;
   justify-content: space-between;
+  align-items: center;
+}
+
+.navbar .nav-logo {
+  display: grid;
   align-items: center;
 }
 
@@ -167,6 +172,12 @@ body {
 }
 
 /* Post Page */
+.post-full {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
 .post-body p {
   color: var(--dark);
 }
